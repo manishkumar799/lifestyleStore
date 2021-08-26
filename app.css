@@ -1,0 +1,137 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+    
+}
+
+
+nav{
+    display: block;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin: 0;
+    
+}
+h2{
+    width: 50%;
+    /**line-height: 30px;**/
+    margin-left: 10%;
+    padding-top: 0.5%;
+    
+}
+.log>li{
+    display: inline;
+    margin-top: auto;
+    
+}
+li>a{
+    text-decoration: none;
+    color: white;
+}
+.log{
+    margin-right: 10%;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    width: 10%;
+    position: absolute;
+    top: 2%;
+    left: 80%;
+    
+}
+.intro{
+    margin: 0;
+    background-image: url(images/intro-bg_1.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 28%;
+    width: 40%;
+    padding-top: 5%;
+}
+button{
+    background-color: red;
+    
+    border-radius: 10%;
+    color: white;
+    
+}
+
+img{
+   height: 200px;
+
+    max-width: 500px;
+    
+    
+    object-fit: cover;
+    
+}
+.gridd{
+    padding-left: 15%;
+    padding-top: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.images{
+    border: 1px solid gray; 
+    padding: 5px;
+    text-align: center;
+    
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 30px;
+    line-height:30px;
+}
+div>h2{
+    text-align: center;
+    align-items: center;
+}
+@media(max-width: 1090px){
+    .gridd{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 50%;
+    }
+    .images{
+        width: 100%;
+
+    }
+    img{
+        max-width: 100%;
+        object-fit: fill;
+    }
+    .intro{
+        height: 500px;
+        width: auto;
+    }
+    footer{
+        font-size: 10px;
+    }
+    .content{
+        height:10em;
+    }
+    .log{
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+    }
+}
