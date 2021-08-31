@@ -1,0 +1,122 @@
+.bg{
+    background-color: #101010; 
+}
+.nav-link, .navbar-brand{
+    color: #9d9d9d!important;
+}
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color: #9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+#banner_image{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(images/intro-bg_1.jpg) no-repeat center center;
+    background-size: cover;
+}
+#banner_content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+/** Login *******************************************************form**/
+.cent{
+    border: 1px solid grey;
+}
+.size{
+    margin:10% 40% 10% 40%;
+   
+}
+form{
+    margin: 15%;
+    
+    min-width: 150px;
+    max-width: 500px;
+}
+
+.group{
+    border: 1px solid #ddd;
+    margin: 2%;
+    
+}
+.panel-body{
+    padding: 2%;
+}
+.login{
+    padding: 2%;
+    color: aliceblue;
+}
+.table td {
+    border-top:none!important ;
+}
+.table th{
+    border-top:none!important ;
+    padding:0 0.7rem 0 0.7rem;
+    
+}
+.table{
+    margin-top: 5%;
+    padding: 30%;
+    max-width: 50%!important;
+    margin-bottom: 40%!important;
+}
+
+/**cart Page ***********/
+
+/** h3 sucesssss page************/
+
+#success{
+    margin-top: 10%;
+    margin-bottom: 30%;
+}
+
+.jumbotron{
+    margin-top: 3%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.thumbnail{
+    display: block;
+    max-width: 100%;
+    height:auto;
+  }
+  img{
+    padding: 2px;
+  }
+  .caption{
+      color: #000;
+      padding: 0px 10px 10px;
+      
+      font-size: 12px;
+      text-align: center;
+  }
+  .items{
+      width: 100%;
+      display: block;
+      padding: 4px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      line-height: 1.42857143;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      float: left;
+      margin-left: 1%;
+  }
+
+.fff{
+    padding: 10%;
+}
